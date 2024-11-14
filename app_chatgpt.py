@@ -156,7 +156,7 @@ st.sidebar.write("Select plot and charts")
 file = st.file_uploader('Choose a file', type=['csv', 'xlsx'], help="Upload a .csv or .xlsx file")
 
 # Footer Section
-st.markdown('<div class="footer">Developed by Team CHIRU</div>', unsafe_allow_html=True)
+#st.markdown('<div class="footer">Developed by Team CHIRU</div>', unsafe_allow_html=True)
 
 # Continue with your existing code...
 catcol, numcol = [], []
